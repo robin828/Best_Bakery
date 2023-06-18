@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Bakery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Landing page for Bakery Website You can add items to the cart as many as quantity you want. The added products were displayed on Cart Page where you can increase or decrease the quantity. And on clicking Checkout button you can console the products array in the console.
 
-## Available Scripts
+Webpage deployed link - (https://best-bakery.vercel.app/)
+
+## Available Scripts to make app work in your system
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install` 
+-it will install all the required dependency
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `npm start` 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Runs the app in the development mode.\
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+## Library used in this application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Tailwind` 
+Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Redux` 
+Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `react-router-dom` 
+React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
 
-### `npm run eject`
+### Demo Images
+<img width="1434" alt="Screenshot 2023-06-18 at 7 02 54 PM" src="https://github.com/robin828/Best_Bakery/assets/61390860/090d945e-7168-47ae-b6bc-fbe9ab47d37c">
+<img width="1438" alt="Screenshot 2023-06-18 at 7 03 08 PM" src="https://github.com/robin828/Best_Bakery/assets/61390860/1545eba7-e67f-44df-9f43-7e5a0282df96">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1439" alt="Screenshot 2023-06-18 at 7 04 40 PM" src="https://github.com/robin828/Best_Bakery/assets/61390860/3cb434da-4ee9-4277-8349-b2513e6c115c">
