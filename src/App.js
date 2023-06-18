@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Landing from './UI/LandingPage.js/Landing';
+import Navigation from './Navigation';
 // import 
 function App() {
   return (
     <div className="App">
-      <Landing />
+      {/* <Landing /> */}
+      {/* <Routes /> */}
+      <Navigation />
     </div>
   );
 }
